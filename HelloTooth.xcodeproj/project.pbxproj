@@ -12,6 +12,7 @@
 		D4FCB81822F3547A00C5955D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4FCB81622F3547A00C5955D /* Main.storyboard */; };
 		D4FCB81A22F3547E00C5955D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4FCB81922F3547E00C5955D /* Assets.xcassets */; };
 		D4FCB81D22F3547E00C5955D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4FCB81B22F3547E00C5955D /* LaunchScreen.storyboard */; };
+		D4FCB82722F35C8C00C5955D /* ScannerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FCB82622F35C8C00C5955D /* ScannerController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		D4FCB81922F3547E00C5955D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D4FCB81C22F3547E00C5955D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D4FCB81E22F3547E00C5955D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4FCB82622F35C8C00C5955D /* ScannerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScannerController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				D4FCB81222F3547A00C5955D /* AppDelegate.swift */,
+				D4FCB82622F35C8C00C5955D /* ScannerController.swift */,
 				D4FCB81422F3547A00C5955D /* ViewController.swift */,
 				D4FCB81622F3547A00C5955D /* Main.storyboard */,
 				D4FCB81922F3547E00C5955D /* Assets.xcassets */,
@@ -137,6 +140,7 @@
 			files = (
 				D4FCB81522F3547A00C5955D /* ViewController.swift in Sources */,
 				D4FCB81322F3547A00C5955D /* AppDelegate.swift in Sources */,
+				D4FCB82722F35C8C00C5955D /* ScannerController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +289,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7AWTC29UP5;
 				INFOPLIST_FILE = HelloTooth/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +308,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7AWTC29UP5;
 				INFOPLIST_FILE = HelloTooth/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
